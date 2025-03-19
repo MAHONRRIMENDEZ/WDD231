@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[Mahonrri Mendez] - WDD 231 - Web Frontend Development</title>
+    <link rel="icon" href="week01/images/favicon.ico">
+    <!-- Meta tags, author, description, social media, etc-->
+    <meta name="author" content="Mahonrri Mendez"/>
+    <meta name="description" content="This page will be dedicated to complete my WDD 231 - Web Frontend Development
+        trying to demostrate/overcome that I'm capable to complete the requirements to approved this
+        course, by Mahonrri Mendez." />
+
+    <meta property="og:title" content="Mahonrri Mendez - Home page" />
+    <meta property="og:type" content="Website"/>
+    <meta property="og:url" content="https://mahonrrimendez.github.io/wdd231/index.html" />
+    <meta property="og:image" content="https://www.istockphoto.com/es/foto/concepto-del-d%C3%ADa-mundial-del-medio-ambiente-monta%C3%B1as-verdes-y-hermosas-nubes-de-cielo-gm1272742923-374918508" />
+
+    <!--  links for CSS and js-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+
+</head>
+
+<body>
+    <header>
+        <span><img src="images/placeholder.webp" alt="fotoBoda" loading="lazy" width="2" height="4"></span>
+        <div><h2 class="titlename">Mahonrri Mendez</h2>
+        <img id="dark-mode-toggle" src="images/dark-theme-svgrepo-com.svg" alt="dark mode">
+        </div>
+    </header>
+    <nav>
+        <button id="myButton"></button>
+        <ul class="menuLinks">
+            <li class="current-menu-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="chamber/">Chamber</a>
+            </li>
+            <li>
+                <a href="https://github.com/MAHONRRIMENDEZ">GitHub Profile</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/mahonrri-mendez-1106/">LinkedIn</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!--  responsive images  -->
+        <h1>WDD 231: Web Frontend Development</h1>
+        <h2>Home Page</h2>
+        <div class="cards">
+            <section class="card1">
+                <h3 class="titleCard">Learning Activities</h3>
+                <div id="displayLinks">
+                        <li>week 1</li>
+                        <li>week 2</li>
+                        <li>week 3</li>
+                </div>
+            </section>
+
+            <section class="card2">
+                
+                <div class="card3">
+                    <h3>Information</h3>
+                    <img src="images/cocha.webp" loading="lazy"  alt="Bolivia Flag" width="400" height="200"></span>
+                    <img id="graphic" src="" alt="">
+                    <h4 id="town"></h4>
+                    
+                    <p id="description"></p>
+                    <p id="temperature"></p>
+                </div>
+                
+
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+            </section>
+        </div>
+
+        <div class="programming-section">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cse">CSE</button>
+                <button class="filter-btn" data-filter="wdd">WDD</button>
+            </div>
+            <div class="cards-container">
+                <div class="card cse">
+                    <h3>CSE 110</h3>
+                </div>
+                <div class="card wdd">
+                    <h3>WDD 130</h3>
+                </div>
+                <div class="card cse">
+                    <h3>CSE 111</h3>
+                </div>
+                <div class="card cse">
+                    <h3>CSE 210</h3>
+                </div>
+                <div class="card wdd">
+                    <h3>WDD 131</h3>
+                </div>
+                <div class="card wdd">
+                    <h3>WDD 231</h3>
+                </div>
+            </div>
+        </div>   
+    </main>
+    <footer>
+        <p>
+            <span id="currentyear">
+            <p>©️ Mahonrri Mendez | Cochabamba Bolivia_</p>
+            <p id="lastModified">  </p>
+        
+            <img src="images/bolivia.webp" loading="lazy"  alt="Bolivia Flag" width="60" height="30"></span>
+        
+        
+    </footer>
+    
+    <script src="scripts/getdates.js" ></script> 
+
+</body>
+</html>
