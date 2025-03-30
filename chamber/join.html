@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--  Meta information AND title  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join - Cochabamba Chamber of Commerce</title>
+    <meta name="author" content="Mahonrri Mendez">
+    <meta name="description" content="This page will work as a Join form page for the chamber of commerce website in the city of cochabamba and part of the main project of this course by Mahonrri Mendez">
+
+    <!--  Social Media  -->
+    <meta property="og:title" content="Mahonrri Mendez - Chamber Join page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mahonrrimendez.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Funifranz.edu.bo%2Fblog%2Fel-turismo-y-los-servicios-potencialidades-economia-naranja-cochabamba%2F&psig=AOvVaw3XugZmars4j6-w-A6fOy4N&ust=1720221845448000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCw4OTejocDFQAAAAAdAAAAABAE">
+    <!--  favicon  -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!--  links for CSS and fonts  -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--  responsive images  -->
+</head>
+<body>  
+    <header>
+        <div class="title">
+            <h1>Cochabamba Chamber of Commerce</h1>
+            <nav>
+                <button id="myButton"></button>
+                <ul class="menuLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li class="current-menu-item"><a href="join.html">Join</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <section id="main-content"> 
+        <div class="membership">
+            <div class="newstats">
+                <h3>Memberships</h3>
+                <h4>1. Non-Profit Membership</h4>
+                <p>Cost: $250 per year</p>
+                <p><b>Benefits:</b></p>
+                <ul>
+                    <li>Listing in the chamber's online directory</li>
+                    <li>Access to chamber networking events</li>
+                    <li>Subscription to chamber newsletters</li>
+                    <li>Participation in chamber committees</li>
+                    <li>Recognition as a non-profit supporter on the chamber's website</li>
+                </ul>
+                
+                <h4>2. Bronze Membership</h4>
+                <p>Cost: $500 per year</p>
+                <p><b>Benefits (includes Non-Profit benefits plus):</b></p>
+                <ul>
+                    <li>Enhanced listing in the chamber's online directory with a logo and description</li>
+                    <li>Discounted rates for chamber-sponsored training sessions and workshops</li>
+                    <li>Access to member-only networking events</li>
+                    <li>One free spotlight feature on the chamber's website homepage per year</li>
+                    <li>Access to member-to-member discount programs</li>
+                    <li>Opportunity to host a chamber networking event at their location</li>
+                </ul>
+
+                <h4>3. Silver Membership</h4>
+                <p>Cost: $1,000 per year</p>
+                <p><b>Benefits (includes Bronze benefits plus):</b></p>
+                <ul>
+                    <li>Priority placement in the chamber's online directory</li>
+                    <li>Two free spotlight features on the chamber's website homepage per year</li>
+                    <li>Exclusive invitation to a quarterly executive luncheon with local business leaders</li>
+                    <li>Sponsorship opportunities for chamber events and programs</li>
+                    <li>Additional discounts on advertising opportunities with the chamber</li>
+                    <li>Access to member-only educational webinars and seminars</li>
+                </ul>
+                
+                <h4>4. Gold Membership</h4>
+                <p>Cost: $2,500 per year</p>
+                <p><b>Benefits (includes Silver benefits plus):</b></p>
+                <ul>
+                    <li>Premier placement and enhanced listing in the chamber's online directory</li>
+                    <li>Four free spotlight features on the chamber's website homepage per year</li>
+                    <li>Recognition as a Gold Member in chamber communications and events</li>
+                    <li>Complimentary tickets to all chamber networking events and workshops</li>
+                    <li>Priority sponsorship opportunities at major chamber events</li>
+                    <li>Annual private consultation with chamber leadership on business issues</li>
+                    <li>Special invitation to an exclusive annual appreciation dinner with the chamber board</li>
+                </ul>
+
+                
+            </div>
+        
+            <form method="get" action="thankyou.html" class="wf1">
+                <fieldset>
+                    <legend>Applicant's information</legend>
+
+                    <label>First name*<input type="text" id="fname" name="first name" required></label>
+
+                    <label>Last name*<input type="text" id="lname" name="last name" required></label>
+
+                    <label>Title or position<input type="text" id="title" name="title" pattern="[A-Za-z\- ]{7,}"></label>
+                    
+                    <label>Email*<input type="email" id="email" name="email" required placeholder="someone@example.com"></label>
+
+                    <label>Mobile phone number*<input type="tel" id="phone" name="phone" required placeholder="1112223333"></label>
+
+                    <label>Business/organization's name*<input type="text" id="business" name="business" required></label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Membership information</legend>
+                    <div class="secmessage">Choose a membership level (optional)</div>
+                    <label><input type="radio" name="level" value="NP Membership"> Non profit organizations</label>
+                    <label><input type="radio" name="level" value="Bronze Membership"> Bronze Membership</label>
+                    <label><input type="radio" name="level" value="Silver Membership"> Silver Membership</label>
+                    <label><input type="radio" name="level" value="Gold Membership"> Gold Membership</label>
+
+                    <label>Business/Organization Description:<br>
+                    <textarea id="description" name="description" rows="4" cols="40" placeholder="Enter a brief description here..." required></textarea><br></label>
+
+                    <input type="hidden" id="timestamp" name="timestamp" value="readonly">
+                </fieldset>
+                    
+
+                
+                <input type="submit" value="Send application" class="submitb">
+            </form>
+            
+        </div>            
+    </section> 
+    
+    </main>    
+    <footer>
+        <div class="container">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Av los molles y calle cochabamba, tiquipaya, Cochabamba, Bolivia</p>
+                <p>Phone: +591 65394536</p>
+                <p>Email: Cochabamba@chamberofcommerce.com</p>
+            </div>
+            <div class="social-media">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="currentyear"></span>
+            Mahonrri Mendez | Cochabamba Chamber of Commerce | WDD 230 Web Frontend Development I <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/home.js" ></script> 
+
+</body>
+</html>
