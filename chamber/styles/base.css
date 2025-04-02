@@ -417,4 +417,27 @@ div.list section p {
 }
 
 
-/**/
+/* temperature*/
+.weather #description {
+    text-transform: capitalize;
+    margin: 0.5rem;
+    }
+    .weather #town {
+    font-size: 2rem;
+    color: black;
+    }
+    .weather #temperature {
+    font-size: 2rem;
+    color: black;
+    margin: .3rem;
+    }
+    
+    #graphic{
+    width: 10rem;
+    height: 5rem;
+    }
+    
+    .visits{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    }

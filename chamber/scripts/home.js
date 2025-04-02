@@ -47,7 +47,13 @@ var currentTimestamp = new Date().toISOString().slice(0, 19).replace('T', ' ');
 document.getElementById("timestamp").value = currentTimestamp;
 
 
-// current weather 
+
+
+/*wheather*/ 
+
+
+
+
 // weather
 
 const myTown = document.querySelector('#town');
@@ -94,3 +100,4 @@ function displayResults(data){
     myGraphic.setAttribute('SRC', iconsrc)
     myGraphic.setAttribute('alt', data.weather[0].description)
 }
+
