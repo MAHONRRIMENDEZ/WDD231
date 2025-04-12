@@ -1,0 +1,24 @@
+/* Responsivo */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    .nav-links {
+        width: 100%;
+        flex-direction: column;
+        display: none;
+        margin-top: 10px;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        padding: 10px 0;
+        text-align: center;
+        border-top: 1px solid #444;
+    }
+    }
+    
