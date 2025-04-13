@@ -38,55 +38,54 @@
         </div>
     </nav>
     
-<header>
-<h1>Project: Site Plan - No coffee - Coffee Shop</h1>
-<p>Colors, fonts, and initial site style.</p>
+<!-- Header -->
+<header class="page-header">
+    <h1>Contact us</h1>
+    <p>We're here for you. Let's talk!</p>
 </header>
 
-<main>
-<div class="card">
-    <h2>🎨 Palette of color</h2>
-    <div class="colors">
-    <div class="color-box mist">Mist<br>#90AFC5</div>
-    <div class="color-box stone">Stone<br>#336b87</div>
-    <div class="color-box shadow">Shadow<br>#2A3132</div>
-    <div class="color-box autumn">Autumn Foliage<br>#763626</div>
-    </div>
-</div>
+<!-- Contact Section -->
+<main class="contact-container">
+    <section class="card contact-form">
+    <h2>Escríbenos</h2>
+    <form action="thankyou.html" method="GET">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit" class="btn-primary">Send</button>
+    </form>
+</section>
 
-<div class="card">
-    <h2>🔤 Typography</h2>
-    <p>Selected Font: <strong>Poppins</strong></p>
-    <p><em>“A well-made cup of hot chocolate can brighten your day. Welcome to our café.”</em></p>
+<section class="card contact-info">
+    <h2>Information</h2>
+    <p>📍 Calle 123, Centro, Ciudad</p>
+    <p>📞 +52 123 222 000</p>
+    <p>📧 none@cafeteria.com</p>
+    <p>🕒 Monday - Saturday: 8:00 AM – 8:00 PM</p>
+</section>
+<section class="card map-section">
+    <h2>Where are we?</h2>
+    <div class="map-container">
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d475.96921710421793!2d-66.15078596172!3d-17.375579055979976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDIyJzMxLjQiUyA2NsKwMDknMDEuMSJX!5e0!3m2!1ses!2sbo!4v1744501801869!5m2!1ses!2sbo" 
+    width="100%"
+    height="350"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
 </div>
-<div class="card">
-    <h2>☕ Our Vision</h2>
-    <p>
-        Our coffee shop was born to offer a warm and authentic space where people can enjoy quality hot chocolate, chat, work, or simply relax. This project seeks to reflect our essence through a visually harmonious, functional, and modern website that conveys the experience we strive to provide with every cup. We want to highlight our passion for a relaxing space, artisanal products, and human service, making every virtual or physical visit special. Funny fact we won't sell coffee
-    </p>
-</div>
-<div class="card">
-    <h2>📋 Proposed Content</h2>
-    <ul>
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Menu</li>
-    <li>Contact / Location</li>
-    </ul>
-</div>
-<div class="card gallery-card">
-<h2>🖼️ Diseño Visual - Wireframes</h2>
-    <p>Below are some initial visual concepts and structures for the sections of the coffee shop website. </p>
-    <div class="wireframe-gallery">
-        <p> phone view</p> <img src="images/wireframe1.webp" alt="Wireframe 1">
-        <p> Home view</p> <img src="images/wireframe2.webp" alt="Wireframe 2">
-        <p> About Us view</p> <img src="images/wireframe3.webp" alt="Wireframe 3">
-        <p> Menu view</p> <img src="images/wireframe4.webp" alt="Wireframe 4">
-        <p> Contact Us view</p> <img src="images/wireframe5.webp" alt="Wireframe 5">
-    </div>
-</div>
-
+</section>
 </main>
+
+
 
 <footer>
 <div class="footer-content">

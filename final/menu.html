@@ -38,55 +38,65 @@
         </div>
     </nav>
     
-<header>
-<h1>Project: Site Plan - No coffee - Coffee Shop</h1>
-<p>Colors, fonts, and initial site style.</p>
-</header>
+    <header class="page-header">
+        <h1>Menú</h1>
+        <p>Explora nuestras bebidas, comidas y dulces favoritos</p>
+    </header>
 
-<main>
-<div class="card">
-    <h2>🎨 Palette of color</h2>
-    <div class="colors">
-    <div class="color-box mist">Mist<br>#90AFC5</div>
-    <div class="color-box stone">Stone<br>#336b87</div>
-    <div class="color-box shadow">Shadow<br>#2A3132</div>
-    <div class="color-box autumn">Autumn Foliage<br>#763626</div>
-    </div>
+<section class="card1">
+    <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All Products</button>
+    <button class="filter-btn" data-category="bebidas">Drinks</button>
+    <button class="filter-btn" data-category="comidas">Food</button>
+    <button class="filter-btn" data-category="postres">Desserts</button>
+    <button class="filter-btn" data-category="promociones">Promos</button>
 </div>
-
-<div class="card">
-    <h2>🔤 Typography</h2>
-    <p>Selected Font: <strong>Poppins</strong></p>
-    <p><em>“A well-made cup of hot chocolate can brighten your day. Welcome to our café.”</em></p>
+</section>
+<main class="menu-container">
+<!-- Cada producto tiene una categoría como clase -->
+<div class="product-card bebidas">
+    <h3>Choco Espresso</h3>
+    <p>Fuerte, aromático y perfecto para despertar.</p>
+    <span class="price">$2.00</span>
 </div>
-<div class="card">
-    <h2>☕ Our Vision</h2>
-    <p>
-        Our coffee shop was born to offer a warm and authentic space where people can enjoy quality hot chocolate, chat, work, or simply relax. This project seeks to reflect our essence through a visually harmonious, functional, and modern website that conveys the experience we strive to provide with every cup. We want to highlight our passion for a relaxing space, artisanal products, and human service, making every virtual or physical visit special. Funny fact we won't sell coffee
-    </p>
+<div class="product-card bebidas">
+    <h3>ChocoCapuchino</h3>
+    <p>Espuma perfecta y sabor equilibrado.</p>
+    <span class="price">$3.50</span>
 </div>
-<div class="card">
-    <h2>📋 Proposed Content</h2>
-    <ul>
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Menu</li>
-    <li>Contact / Location</li>
-    </ul>
+<div class="product-card comidas">
+    <h3>Panini de Pollo</h3>
+    <p>Pollo al grill con pesto y queso derretido.</p>
+    <span class="price">$6.00</span>
 </div>
-<div class="card gallery-card">
-<h2>🖼️ Diseño Visual - Wireframes</h2>
-    <p>Below are some initial visual concepts and structures for the sections of the coffee shop website. </p>
-    <div class="wireframe-gallery">
-        <p> phone view</p> <img src="images/wireframe1.webp" alt="Wireframe 1">
-        <p> Home view</p> <img src="images/wireframe2.webp" alt="Wireframe 2">
-        <p> About Us view</p> <img src="images/wireframe3.webp" alt="Wireframe 3">
-        <p> Menu view</p> <img src="images/wireframe4.webp" alt="Wireframe 4">
-        <p> Contact Us view</p> <img src="images/wireframe5.webp" alt="Wireframe 5">
-    </div>
+<div class="product-card comidas">
+    <h3>Tostada Mediterránea</h3>
+    <p>Pan artesanal con hummus, tomate y aceitunas.</p>
+    <span class="price">$5.50</span>
 </div>
-
+<div class="product-card postres">
+    <h3>Cheesecake de Frutos Rojos</h3>
+    <p>Suave y cremoso, con topping natural.</p>
+    <span class="price">$4.00</span>
+</div>
+<div class="product-card postres">
+    <h3>Brownie Clásico</h3>
+    <p>Chocolate intenso, crocante por fuera y suave por dentro.</p>
+    <span class="price">$3.00</span>
+</div>
+<div class="product-card promociones">
+    <h3>Combo Café + Brownie</h3>
+    <p>Perfecto para una pausa dulce.</p>
+    <span class="price">$4.50</span>
+</div>
+<div class="product-card promociones">
+    <h3>Desayuno Express</h3>
+    <p>Latte + pan tostado con mermelada.</p>
+    <span class="price">$5.00</span>
+</div>
 </main>
+
+
 
 <footer>
 <div class="footer-content">
